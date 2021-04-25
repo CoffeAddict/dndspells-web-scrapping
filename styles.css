@@ -1,0 +1,77 @@
+body {
+    font-size: 13px;
+}
+
+.main-container {
+    display: block;
+}
+
+.spell-container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spell-container:not(:first-child) {
+    margin-top: 1.923077em;
+}
+
+.spell-name {
+    font-size: 1.384615em;
+    font-family: 'Mr Eaves Smallcaps', serif;
+    color: #58170D;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+div.content-separator + p, div.content-separator + p + p{
+    font-style: italic;
+    margin: 0;
+    margin-top: 0.230769em;
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+p, li {
+    font-size: 1em;
+    font-family: 'BookInsanity';
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 1.923077em;
+}
+
+p em {
+    font-family: Georgia;
+}
+
+p strong em, p strong {
+    letter-spacing: 0.049231em;
+    font-size: 1em;
+    font-family: 'BookInsanity';
+}
+
+@media print {
+    body {
+        font-size: 10.5px;
+    }
+
+    div {
+        break-inside: avoid;
+    }
+
+    .spell-container {
+        width: 100%;
+    }
+}
+
+@page {
+    margin: 4.6em 3.3em 0 3.3em;
+}
