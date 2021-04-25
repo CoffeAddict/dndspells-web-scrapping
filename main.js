@@ -78,10 +78,7 @@ async function getSpellDetails (spellList) {
             .catch(() => {
                 console.error(`Error requesting spell: ${spell}`)
                 retrySpellsList.push(spell)
-                currentIndex--
             })
-
-        currentIndex++
     }
 
     if (retrySpellsList.length > 0) {
