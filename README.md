@@ -25,7 +25,7 @@ npm ci
 ## Running The Program
 
 ```
-node main
+npm run start
 ```
 
 ## Future Features
