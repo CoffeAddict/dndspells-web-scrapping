@@ -1,19 +1,19 @@
 # DND Spells Web Scrapping
 
-This Node.js app scraps data from multiple webapps and generates a HTML File with data
+This Node.js app scraps data from multiple webapps and generates a HTML File with it
 
 Webpages used:
 
 - DND Beyond
 - DND 5e (wikidot)
 
-## Setting Up
+## Setup
 
 ```bash
 npm ci
 ```
 
-## Functionality Process
+## How it works
 
 1. Set the Query String (form DND Beyond, here you can apply as many filters you want)
 3. Get the scrapped html from DND Beyond, for the Spells name
